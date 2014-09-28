@@ -50,7 +50,7 @@ public class DarkHorsing {
 public static DarkHorsing instance ;
 
 
-@SidedProxy(clientSide = "teamcubedcow.client.DarkHorsingClientProxy", serverSide = "teamcubedcow.darkhorsing.common.DarkHorsingCommonProxy") //Tells Forge the location of your proxies
+@SidedProxy(clientSide = "mod.darkhorsing.client.DarkHorsingClientProxy", serverSide = "mod.darkhorsing.main.DarkHorsingCommonProxy") //Tells Forge the location of your proxies
 
 public static DarkHorsingCommonProxy proxy;
 
